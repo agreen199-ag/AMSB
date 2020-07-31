@@ -3,3 +3,6 @@ sheet1: https://ngellc.sharepoint.com/:x:/s/NetGlobalEnterprises/Ef7tptTpQTBBp-o
 sheet2: https://ngellc.sharepoint.com/:x:/s/NetGlobalEnterprises/ET_DPe763mRCq0IgZb1T91IB0KEpgJnQTfP0lANspjb2jQ?e=aScuDY
 shhet3: https://ngellc.sharepoint.com/:x:/s/NetGlobalEnterprises/ETm_Bef-I11EmvtlA8OHRrsBTXrZIa93YRk0-XiTSgL4Zw?e=Wkcyyt
 shhet4: https://ngellc.sharepoint.com/:x:/s/NetGlobalEnterprises/EcdkihRdzLZOmdJcOv5flzoBAMAPlbzPyjguNhrvXGqqXA?e=fpgClp
+sass:
+  sass_dir: _sass
+  style: compressed
