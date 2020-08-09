@@ -8,18 +8,40 @@ title: Help
 
     <div class="help-section">
         <h2>External CRM Tracker</h2>
-        <p>[External CRM Tracker Help]</p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p>This report contains a list of external relationships.</p>
+                <p>At the top of the report are filters for searching the list, including Military Branch, Key POC, City,
+                    Organization Type, Focus area, Operation Type, and Relationship Owner.</p>
+                <p>The list of data is in the center of the report.</p>
+                <p>At the bottom of the report is a map showing the location of the Branch.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="{% static 'img/external1.png' %}">
+            </div>
+        </div>
     </div>
 
     <div class="help-section">
         <h2>Daily Tracker (Onboarding)</h2>
-        <p>[Daily Tracker Help]</p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p>This report contains information on candidates sorted by their cohort number.</p>
+                <p>The cohort number can be selected with the dropdown in the top left of the report. Next to this
+                    are several other filters including Last Name, First Name, Key POC, Site, Pillar, and Role</p>
+                <p>The data for each cohort member can be seen at the bottom of the report.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="{% static 'img/daily1.png' %}">
+            </div>
+        </div>
     </div>
 
     <div class="help-section">
         <h2>Master Tracker</h2>
+        (Update this after getting specifications)
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <h4>Section 1 - Overview</h4>
                 <p>This report gives a general overview of AMSB candidates.</p>
                 <p>The statistics for percent applied, enrolled, completed, job interviews, and job offers can be found at the top.</p>
@@ -27,13 +49,13 @@ title: Help
                     while percent interviewed, job offered, and onboarded are in the right "Onboarding Status" chart.</p>
                 <p>You can filter the percentages and pie charts by site by using the check boxes in the top left.</p>
             </div>
-            <div class="col-6">
-                <img src={{ "img/master1.png" | relative_url }}>
+            <div class="col-12 col-md-6">
+                <img src="{% static 'img/master1.png' %}">
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <h4>Section 2 - Candidate Table</h4>
                 <p>This report contains a detailed list of AMSB candidates.</p>
                 <p>The table itself is on the right. Each row represents a candidate, and each column holds various data for that candidate.
@@ -47,8 +69,8 @@ title: Help
                     and clicking on a dot in the map will show all candidates in that location.
                 </p>
             </div>
-            <div class="col-6">
-                <img src={{ "img/master2.png" | relative_url }}>
+            <div class="col-12 col-md-6">
+                <img src="{% static 'img/master2.png' %}">
             </div>
         </div>
     </div>
